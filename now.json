@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "builds": [],
+  "builds": [{ "src": "index.html", "use": "@now/static" }],
   "regions": ["cdg1", "bru1"]
 }
