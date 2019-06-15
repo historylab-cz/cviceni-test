@@ -1,0 +1,164 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+body,
+html {
+  min-height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  min-height: 100%;
+  overflow-y: auto;
+}
+
+header {
+  width: 100%;
+  padding: 2.4rem 1.6rem 1.6rem;
+  background: linear-gradient(135deg, #a77977 0%, #5352A6 100%);
+  background-color: #5352A6;
+  color: #fdf2f2;
+  text-align: center;
+}
+
+#logo {
+  fill: currentColor;
+  height: 6.4rem;
+}
+
+#logo-tacr {
+  display: block;
+  fill: currentColor;
+  height: 8rem;
+  margin: 0 auto;
+}
+
+hr {
+  border-color: #a77977;
+  margin-top: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 1280px) {
+  main {
+    width: 70%;
+    min-width: 1200px;
+    max-width: 1200px;
+    padding: 1.6rem;
+  }
+}
+
+main section {
+  padding: 1.6rem;
+}
+
+h1 {
+  line-height: 2.8rem;
+  margin-top: 0;
+}
+
+.section-name {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.text-large {
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+.text-small {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.section-new {
+  flex: 1 100%;
+  text-align: center;
+  background: #1c1312;
+  color: #fdf2f2;
+  padding: 1.6rem;
+}
+
+.section-new > * {
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+.section-about {
+  flex: 1 60%;
+}
+
+.section-about li {
+  margin-bottom: 0.4rem;
+}
+
+.section-cviceni {
+  flex: 1 100%;
+  background-color: #fdf2f2;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-cviceni {
+    flex: 1 40%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .section-cviceni {
+    margin-top: -1.6rem;
+    padding-top: 3.2rem;
+  }
+}
+
+.section-cviceni ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section-cviceni ul li {
+  line-height: 1.4rem;
+  padding: 0.48rem 1.6rem;
+  border-bottom: 1px solid rgba(28, 19, 18, 0.1);
+  border-bottom: 1px solid #fce4e3;
+}
+
+.section-cviceni ul a:nth-of-type(2) {
+  text-transform: uppercase;
+  font-size: 0.64rem;
+}
+
+.section-cviceni ul + p {
+  margin-top: 3.2rem;
+}
+
+.section-pictures {
+  flex: 1;
+}
+
+/*# sourceMappingURL=maps/homepage.css.map */
