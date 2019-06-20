@@ -1,4 +1,1 @@
-<svg id="help-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <title>icon-analyticka-tabulka</title>
-  <path d="M80,74V27H18V74ZM48,72H20V59H48ZM78,57H50V44H78ZM20,42V29H78V42Z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M80 74V27H18v47zm-32-2H20V59h28zm30-15H50V44h28zM20 42V29h58v13z"/></svg>
