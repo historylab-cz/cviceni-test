@@ -8,9 +8,19 @@
       }
     },
     {
-      "src": "([^/]+)$",
+      "src": "/dev/([^/]+)$",
       "status": 301,
-      "headers": { "Location": "$1/" }
+      "headers": { "Location": "/dev/$1/" }
+    },
+    {
+      "src": "/cviceni/([^/]+)$",
+      "status": 301,
+      "headers": { "Location": "/cviceni/$1/" }
+    },
+    {
+      "src": "/features/([^/]+)$",
+      "status": 301,
+      "headers": { "Location": "/features/$1/" }
     }
   ]
 }
