@@ -8,9 +8,9 @@
       }
     },
     {
-      "src": "(.+)$",
+      "src": "sh/(.+)$",
       "status": 301,
-      "headers": { "Location": "$1/" }
+      "headers": { "Location": "sh/$1/" }
     }
   ]
 }
