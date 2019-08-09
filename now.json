@@ -8,9 +8,9 @@
       }
     },
     {
-      "src": "/dev/([^/]+)$",
+      "src": "/([^/]+)$",
       "status": 301,
-      "headers": { "Location": "/dev/$1/" }
+      "headers": { "Location": "/$1/" }
     }
   ]
 }
