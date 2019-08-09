@@ -7,10 +7,10 @@
         "cache-control": "public, s-maxage=86400, max-age=0, immutable"
       }
     },
-    {
-      "src": "sh/(.+)$",
+    { 
+      "src": "/(((?!\\?|#|\\.).)*((?!\\?|/|#|\\.).))", 
       "status": 301,
-      "headers": { "Location": "sh/$1/" }
-    }
+      "headers": { "Location": "/$1/" }
+    },
   ]
 }
