@@ -3180,6 +3180,10 @@ img.ProseMirror-separator {
   width: auto;
 }
 
+.node-selected {
+  position: relative;
+}
+
 .remove-marker-button {
   z-index: 2;
   cursor: pointer;
@@ -3190,7 +3194,7 @@ img.ProseMirror-separator {
   border: 0;
   border-radius: 50%;
   box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
-  transform: translate(-50%, -60%);
+  transform: translate(-30%, -70%);
   opacity: 0.67;
 }
 .remove-marker-button:hover {
@@ -3199,7 +3203,7 @@ img.ProseMirror-separator {
   border-bottom: 0;
   text-decoration: none;
   transform: scale(1.2);
-  transform: translate(-50%, -60%);
+  transform: translate(-30%, -70%);
   opacity: 1;
 }
 .remove-marker-button:hover::before {
